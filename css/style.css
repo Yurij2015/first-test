@@ -1,18 +1,33 @@
 body {
     background: #c0c0c0;
-
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
 }
 
 .header {
-    height: 100px;
+    height: 100%;
     background: #ccc565;
 
+}
+
+.logo{
+    height: 80px;
+}
+
+.logo .img {
+    width: 20%;
+    float: left;
+}
+
+.logo p{
+    width: 80%;
+    float: right;
 }
 
 nav.nav {
     height: 20px;
     background: #ffff00;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .main {
@@ -45,5 +60,5 @@ nav.nav {
     height: 15px;
     width: 100%;
     background: #234565;
-    margin-top:500px;
+    margin-top: 500px;
 }
