@@ -10,66 +10,116 @@
     <title>Задание</title>
 </head>
 <body>
-<header class="header">
-    <div class="logo">
-        <div class="img"><img src="images/logo.gif" alt=""></div>
-        <p>Бизнес-доска объявлений Биз-Доска.Ру. Бесплатные объявления, различные категории - купить, продать, обменять.
-            Навигация по разделам объявлений. Публикация объявлений бесплатная. Разместите рекламу вашего бизнеса на
-            нашем сайте.</p>
+<div class="conteiner">
+    <header class="header">
+        <div class="header-top">
+            <div class="logo"><img src="images/logo.gif" alt="Бизнес-доска объявлений Бизнес-Доска.Ру" border="0"
+                                   width="213" height="82"></div>
+            <div class="text">
+                <p>Бизнес-доска объявлений Биз-Доска.Ру. Бесплатные объявления, различные категории
+                    -
+                    купить, продать, обменять.
+                    Навигация по разделам объявлений. Публикация объявлений бесплатная. Разместите рекламу вашего
+                    бизнеса на
+                    нашем сайте.</p>
+            </div>
+        </div>
+    </header>
+    <nav class="mainnav">
+        <ul class="main-ul">
+            <li class="main-li"><a href="#">Начало</a></li>
+            <li class="main-li"><a href="#">Подать объявление</a></li>
+            <li class="main-li"><a href="#">Каталог ресурсов</a></li>
+            <li class="main-li"><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="left-and-content">
+
+
+            <form class="form">
+                <input name="srch_keywords" size="15" maxlength="50" style="" type="text" class="input">
+                <input src="images/button_quick_find.gif" alt="Быстрый поиск" title=" Быстрый поиск " border="0"
+                       type="image" width="55" height="12" class="btn">
+            </form>
+
+            <nav class="left">
+                <div class="menu-title">
+                    <b>Главные разделы</b>
+                </div>
+                <ul>
+                    <li><a href="#">Internet</a></li>
+                    <li><a href="#">Автотранспорт</a></li>
+                    <li><a href="#">Бизнес и Экономика</a></li>
+                    <li><a href="#">Бытовые товары</a></li>
+                    <li><a href="#">Деловые услуги</a></li>
+                    <li><a href="#">Одежда и текстиль</a></li>
+                    <li><a href="#">Отдых и Развлечения</a></li>
+                    <li><a href="#">Продукты и напитки</a></li>
+                    <li><a href="#">Производство и оборудование</a></li>
+                    <li><a href="#">Стройматериалы и ремонт</a></li>
+                    <li><a href="#">Сырье</a></li>
+                    <li><a href="#">Товары для офиса</a></li>
+                    <li><a href="#">Трудоустройство</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="content">
+                <p class="content-title"> Приветствуем на бизнес-доске объявлений Биз-Доска.Ру</p>
+
+                <h1>Список главных категорий</h1>
+
+                <div class="kategory-left">
+                    <ul>
+                        <li><a href="#">Internet</a> <span class="red">(473)</span></li>
+                        <li><a href="#">Автотранспорт</a> <span class="red">(3954)</span></li>
+                        <li><a href="#">Бизнес и Экономика</a> <span class="red">(1393)</span></li>
+                        <li><a href="#">Бытовые товары</a> <span class="red">(2761)</span></li>
+                        <li><a href="#">Деловые услуги</a> <span class="red">(2402)</span></li>
+                        <li><a href="#">Одежда и текстиль</a> <span class="red">(1294)</span></li>
+                        <li><a href="#">Отдых и Развлечения</a> <span class="red">(751)</span></li>
+                    </ul>
+                </div>
+                <div class="kategory-right">
+                    <ul>
+                        <li><a href="#">Отдых и Развлечения</a> <span class="red">(751)</span></li>
+                        <li><a href="#">Продукты и напитки</a> <span class="red">(2692)</span></li>
+                        <li><a href="#">Производство и оборудование</a> <span class="red">(3350)</span></li>
+                        <li><a href="#">Стройматериалы и ремонт</a> <span class="red">(4534)</span></li>
+                        <li><a href="#">Сырье</a> <span class="red">(1984)</span></li>
+                        <li><a href="#">Товары для офиса</a> <span class="red">(877)</span></li>
+                        <li><a href="#">Трудоустройство</a> <span class="red">(502)</span></li>
+                    </ul>
+                </div>
+                <h2>Последние объявления</h2>
+                <div class="advertising"></div>
+
+            </div>
+        </div>
+        <nav class="right">
+            <div class="menu-title">
+                <b>Наши партнеры</b>
+            </div>
+            <ul>
+                <li><a href="#">Отдых и Развлечения</a></li>
+                <li><a href="#">Продукты и напитки</a></li>
+                <li><a href="#">Производство и оборудование</a></li>
+                <li><a href="#">Стройматериалы и ремонт</a></li>
+                <li><a href="#">Сырье</a></li>
+                <li><a href="#">Товары для офиса</a></li>
+                <li><a href="#">Трудоустройство</a></li>
+            </ul>
+        </nav>
     </div>
-
-    <nav class="nav">
-
-        Начало Подать объявление Каталог ресурсов Контакты
-    </nav>
-
-</header>
-
-<div class="main">
-
-    <nav class="left">
-        <ul>
-            <li>Internet</li>
-            <li>Автотранспорт</li>
-            <li>Бизнес и Экономика</li>
-            <li>Бытовые товары</li>
-            <li>Деловые услуги</li>
-            <li>Одежда и текстиль</li>
-            <li>Отдых и Развлечения</li>
-            <li>Продукты и напитки</li>
-            <li>Производство и оборудование</li>
-            <li>Стройматериалы и ремонт</li>
-            <li>Сырье</li>
-            <li>Товары для офиса</li>
-            <li>Трудоустройство</li>
-        </ul>
-    </nav>
-
-    <article class="content">
-
-
-    </article>
-
-    <nav class="right">
-        <ul>
-            <li>Отдых и Развлечения</li>
-            <li>Продукты и напитки</li>
-            <li>Производство и оборудование</li>
-            <li>Стройматериалы и ремонт</li>
-            <li>Сырье</li>
-            <li>Товары для офиса</li>
-            <li>Трудоустройство</li>
-        </ul>
-    </nav>
 
 
 </div>
-
-
 <footer class="footer">
+    <div class="copy">(c) 2016 biz-doska.ru</div>
+    <div class="footer-menu"><a href="#">Главная</a> | <a href="#">Добавить объявление</a> | <a href="#">Каталог
+        сайтов</a> | <a href="#">Контакты</a></div>
 
 </footer>
-
-
 </body>
 </html>
